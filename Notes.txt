@@ -24,8 +24,9 @@ Constraints
    - Brunei and April are 1 yr option apart
 
 Solution
-country           month       yrs BCE
-Brunei            June        210,000
-Eritrea           August      180,000
-Saudi Arabia      April       150,000
-Turkmenistan      February    120,000
+country        |   month     |  yrs BCE
+---------------------------------------
+Brunei         |   June      |  210,000
+Eritrea        |   August    |  180,000
+Saudi Arabia   |   April     |  150,000
+Turkmenistan   |   February  |  120,000
