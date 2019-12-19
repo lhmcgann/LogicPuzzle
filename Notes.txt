@@ -1,0 +1,31 @@
+*Puzzle courtesy of logic.puzzlebaron.com
+
+Choices:
+- countries:                  Brunei, Eritrea, Saudi Arabia, Turkmenistan
+- months:                     February, April, June, August
+- thousands of years B.C.E.:  210, 180, 150, 120
+
+Constraints
+1. The crater in Eritrea is believed to be 30,000 years newer than the feature discovered in June.
+   - Eritrea != 210,000 yrs BCE
+   - June != 120,000 yrs BCE
+   - Eritrea != June
+   - Eritrea and June have "consecutive" yr options
+2. The feature in Saudi Arabia was found in April.
+   - Saudi Arabia == April
+3. The crater that was dated to 120,000 B.C.E. was found in February.
+   - February == 120,000 yrs BCE
+4. The feature in Brunei is believed to be 60,000 years older than the feature discovered in April.
+   - Brunei != 120,000 yrs BCE
+   - Brunei != 150,000 yrs BCE
+   - Brunei != April
+   - April != 210,000 yrs BCE
+   - April != 180,000 yrs BCE
+   - Brunei and April are 1 yr option apart
+
+Solution
+country           month          1000 yrs BCE
+Brunei
+Eritrea           
+Saudi Arabia      April
+Turkmenistan
